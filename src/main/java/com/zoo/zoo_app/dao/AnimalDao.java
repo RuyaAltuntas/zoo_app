@@ -15,7 +15,7 @@ public class AnimalDao {
     public void readAnimalFromDB() {
       Map<String,Object> result=  this.jdbcTemplate.queryForMap("select*from animal where AnimalID=?",2);
         System.out.println(result);
-        //// can yaman
+        //// can yamannn
         }
     
 }
