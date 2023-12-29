@@ -13,9 +13,9 @@ public class AnimalDao {
     private JdbcTemplate jdbcTemplate;
 
     public void readAnimalFromDB() {
-      Map<String,Object> result=  this.jdbcTemplate.queryForMap("select*from animal where AnimalID=?",2);
+      Map<String,Object> result=  this.jdbcTemplate.queryForMap("select*from visitors where visitorID=?",9000007);
         System.out.println(result);
-        //// can yamannn
+  
         }
     
 }
