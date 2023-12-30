@@ -17,5 +17,8 @@ public class AnimalController {
     @GetMapping("/api/animals")
     public List<Map<String, Object>> getAllAnimals() {
         return animalDao.readAnimalfromDB();
+
+
+        //aaa
     }
 }
